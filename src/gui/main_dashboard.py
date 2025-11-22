@@ -1,7 +1,10 @@
 import streamlit as st 
 
 def show_dashboard():
+    """Displays the main dashboard page in the Streamlit app."""
     st.markdown("<h1 style='text-align: center; color: #5B2C6F;'>🔮 Tarot Reading Simulator 🔮</h1>", unsafe_allow_html=True)
+    st.markdown("---")
+
     st.markdown(
         """
         <div style='text-align: center; color: #333; font-size: 1.2em;'>
@@ -11,14 +14,14 @@ def show_dashboard():
             <i>May insight and clarity be yours.</i>
         </div>
         """,
-        unsafe_allow_html=True
+        unsafe_allow_html=True # allow HTML rendering
     )
 
-    st.markdown("<hr>", unsafe_allow_html=True)
+    st.markdown("<hr>", unsafe_allow_html=True) # horizontal rule
     st.markdown("<h3 style='text-align:center;'>Choose your path...</h3>", unsafe_allow_html=True)
 
     # Three navigation buttons in one row
-    col1, col2, col3 = st.columns(3)
+    col1, col2, col3 = st.columns(3) # three columns
     with col1:
         if st.button("💫 Past, Present, Future"):
             st.session_state.page = "Past, Present, Future Reading"

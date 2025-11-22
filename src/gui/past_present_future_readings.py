@@ -4,6 +4,7 @@ import time
 from src.utils.persistence import create_reading_entry, save_readings
 
 def show_reading_page():
+    """Displays the Past, Present, Future Reading page in the Streamlit app."""
     st.markdown("<h1 style='color:#5B2C6F; text-align:center;'>📯 Past, Present, Future Tarot Reading</h1>", unsafe_allow_html=True)
     st.markdown("---")
     st.markdown("""
@@ -15,30 +16,30 @@ def show_reading_page():
     reading_type = st.selectbox("Choose your reading type:", ["General", "Love", "Career"])
 
     # Initialize session state to store current reading
-    if "drawn_cards" not in st.session_state:
-        st.session_state.drawn_cards = []
-        st.session_state.reading_type = None
-        st.session_state.reflection = ""
+    if "drawn_cards" not in st.session_state: # check if drawn cards exist
+        st.session_state.drawn_cards = [] # store drawn cards
+        st.session_state.reading_type = None # store reading type
+        st.session_state.reflection = "" # store reflection
 
     # Button to draw cards
     if st.button("🔮 Draw Cards"):
         with st.spinner("Shuffling the deck..."):
-            time.sleep(2)
-        deck = Deck()
-        deck.shuffle()
-        positions = ["Past", "Present", "Future"]
-        st.session_state.drawn_cards = [deck.draw_card() for _ in positions]
-        st.session_state.reading_type = reading_type
-        st.session_state.reflection = ""
+            time.sleep(2) # simulate shuffling delay
+        deck = Deck() # create new deck
+        deck.shuffle() # shuffle deck
+        positions = ["Past", "Present", "Future"] # positions for the spread
+        st.session_state.drawn_cards = [deck.draw_card() for _ in positions] # draw three cards
+        st.session_state.reading_type = reading_type # set reading type
+        st.session_state.reflection = "" # reset reflection
 
     # If we already have cards in session, display them
-    if st.session_state.drawn_cards:
+    if st.session_state.drawn_cards: # check if cards are drawn
         st.success("✨ Your cards are ready! ✨")
 
         positions = ["Past", "Present", "Future"]
-        for position, card in zip(positions, st.session_state.drawn_cards):
-            st.subheader(f"{position}: {card}")
-            st.write(card.get_meaning(st.session_state.reading_type.lower()))
+        for position, card in zip(positions, st.session_state.drawn_cards): # iterate through positions and cards, zip combines two lists
+            st.subheader(f"{position}: {card}") # display position and card
+            st.write(card.get_meaning(st.session_state.reading_type.lower())) # display card meaning
 
         st.markdown("---")
         st.markdown("Would you like to save this reading to your Reflection Journal?")
@@ -71,3 +72,9 @@ def show_reading_page():
                 st.session_state.reflection = ""
         elif save_option == "❌ No, don't save":
             st.info("Okay, not saving! You can draw new cards or navigate away.")
+
+        st.markdown("---")
+        # Reset Deck Button
+        if st.button("🔄 Reset Deck?"):
+            st.session_state.drawn_cards = []
+            st.success("Deck has been reset!")

@@ -10,14 +10,14 @@ class CustomSpread:
         self.cards_drawn = [] # List to hold drawn cards
 
     def perform_reading(self):
-        deck = Deck() 
-        deck.shuffle()
+        deck = Deck() # Create a new deck
+        deck.shuffle() # Shuffle the deck
         for i in range(self.num_cards):
             card = deck.draw_card() # Draw a card from the deck
             self.cards_drawn.append(card) # Store drawn card
 
             # Randomly set orientation
-            if random.choice([True, False]):
+            if random.choice([True, False]): # Randomly choose orientation
                 card.set_orientation(True)  # Card becomes REVERSED
 
     def get_results(self):
@@ -27,9 +27,9 @@ class CustomSpread:
             position = self.positions[i] # Get position name
             card = self.cards_drawn[i] # Get drawn card
             meaning = card.get_meaning(self.reading_type.lower()) # Get meaning based on reading type
-            results.append({
+            results.append({ # Append result dictionary
                 "position": position,
                 "card": card,
                 "meaning": meaning
             })
-        return results
+        return results  # Return the results

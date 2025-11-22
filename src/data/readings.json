@@ -1,158 +1,54 @@
 [
     {
-        "timestamp": "2025-10-18 00:21:20",
-        "spread_type": "Past-Present-Future",
+        "timestamp": "2025-11-04 12:31:38",
+        "spread_type": "Custom Spread",
         "cards": [
             {
-                "name": "Ace of Wands",
+                "name": "Page of Pentacles",
                 "arcana": "Minor",
                 "is_reversed": true,
-                "meaning": "Reversed, this card warns of missed opportunities, lack of motivation, or creative blocks at work. You may feel stuck or uninspired. Reflect on your goals and consider what changes are needed to move forward."
+                "meaning": "In reverse, the Page of Pentacles indicates lack of progress, missed opportunities, and a need for focus. You may be struggling to stay motivated or to find direction in your pursuits. This card suggests the need to reassess your goals and to consider whether you are truly committed to your growth and development. It's a reminder that true success requires dedication and a willingness to put in the necessary effort. Focus on self-reflection and seek support from others if needed. Embrace the transformative energy of this card, and allow yourself to regain focus and motivation."
             },
             {
-                "name": "Knight of Swords",
+                "name": "6 of Wands",
                 "arcana": "Minor",
                 "is_reversed": true,
-                "meaning": "Reversed, the Knight of Swords indicates reckless behavior at work, haste, and a lack of direction. You may be feeling scattered or unfocused, struggling to find your footing in your professional life. This card suggests the need to slow down and reassess your career priorities. It's a reminder that true progress at work comes from thoughtful action and that by taking the time to reflect, you can regain your sense of purpose in your career."
+                "meaning": "Reversed, the 6 of Wands indicates lack of recognition, self-doubt, and private achievement. You may be feeling overlooked or undervalued despite your efforts. This card suggests the need to focus on your inner confidence and self-worth rather than seeking external validation. Remember that true success comes from within, and your achievements are meaningful even if they go unnoticed by others."
             },
             {
-                "name": "The World",
-                "arcana": "Major",
+                "name": "5 of Swords",
+                "arcana": "Minor",
                 "is_reversed": false,
-                "meaning": "In career, The World upright marks completion or recognition of hard work. You’re achieving long-term goals or reaching a new level of mastery. Embrace new challenges with confidence. This card encourages you to celebrate your professional achievements and to recognize the progress you’ve made on your career journey. It may also indicate a time of personal growth and transformation in your professional life, where you are learning to embrace new opportunities and challenges with optimism and courage. Embrace the process of completion, knowing that it will lead to greater clarity and purpose in your career. The World reminds you that while one chapter may be ending, a new one is beginning, filled with potential and promise for your professional growth. Stay open to new experiences and trust that the universe is guiding you towards your highest good."
-            }
-        ],
-        "reading_type": "Career",
-        "reflection": ""
-    },
-    {
-        "timestamp": "2025-10-18 00:22:05",
-        "spread_type": "Past-Present-Future",
-        "cards": [
-            {
-                "name": "9 of Swords",
-                "arcana": "Minor",
-                "is_reversed": true,
-                "meaning": "Reversed, the 9 of Swords indicates releasing anxiety, overcoming fears, and finding hope. You may be starting to see a way out of your mental anguish and to regain control over your thoughts. This card suggests the need to challenge any negative beliefs that may be holding you back. It's a reminder that true peace comes from within and that by embracing a positive mindset, you can overcome these challenges. Focus on self-reflection and seek support from others if needed. Embrace the healing energy of this card, and allow yourself to find peace and clarity."
-            },
-            {
-                "name": "The Chariot",
-                "arcana": "Major",
-                "is_reversed": true,
-                "meaning": "Reversed, it can mean lack of direction or inner conflict. Reevaluate your goals before pushing forward — clarity will help regain control. Avoid forcing progress without a clear plan. This card may also indicate burnout or losing motivation, urging you to take a step back and reconnect with your purpose. Reflect on what’s blocking your progress and take steps to regain your focus and determination. The reversed Chariot encourages you to find balance between effort and self-care, reminding you that true success comes from a foundation of clarity and inner strength. It may also suggest that you are trying to control situations or people in ways that are not productive, leading to frustration and setbacks. Letting go of the need for control can open up new paths and opportunities for growth."
-            },
-            {
-                "name": "Ace of Swords",
-                "arcana": "Minor",
-                "is_reversed": true,
-                "meaning": "Reversed, the Ace of Swords indicates confusion, lack of clarity, and mental blocks. You may be struggling to think clearly or to make decisions. This card suggests the need to address any doubts or uncertainties that may be holding you back. It's a reminder that true mental clarity comes from within and that by focusing your thoughts and intentions, you can overcome these challenges. Focus on self-reflection and seek support from others if needed. Embrace the powerful and focused energy of this card, and allow yourself to explore new ideas and perspectives. This is a time to be patient and to wait for the right moment to take action."
+                "meaning": "The 5 of Swords upright signifies conflict, disagreement, competition, and betrayal. It represents a time of tension and the need to navigate difficult situations. This card encourages you to confront challenges head-on and to find ways to resolve conflicts. It's a reminder that while winning may seem important, it's essential to consider the impact on others. Embrace the lessons learned from these experiences, and allow yourself to grow from adversity. This is a time to reflect on your values and to seek harmony in your interactions with others."
             }
         ],
         "reading_type": "General",
         "reflection": ""
     },
     {
-        "timestamp": "2025-10-18 00:22:12",
+        "timestamp": "2025-11-04 12:45:40",
         "spread_type": "Past-Present-Future",
         "cards": [
             {
-                "name": "The Devil",
+                "name": "The High Priestess",
                 "arcana": "Major",
                 "is_reversed": false,
-                "meaning": "In career, it can suggest feeling stuck or overworked. Reflect on whether you’re sacrificing too much for external rewards. Reclaim balance. This card urges you to confront any limiting beliefs or unhealthy work patterns that may be influencing your professional decisions. Embrace the process of liberation, knowing that true success comes from aligning your career with your values and passions. The Devil reminds you that while temptations and challenges may arise in your work life, you have the strength to overcome them and create a career path that brings fulfillment and joy. Stay mindful of what binds you and take steps to regain your power."
+                "meaning": "The High Priestess upright represents intuition, reflection, and inner knowledge. It’s a reminder to pause and listen to your instincts before taking action. Not everything needs to be solved logically — some answers come from awareness and observation. This card encourages patience and trust in the process, suggesting that clarity will come with time. The High Priestess also signifies a connection to deeper wisdom and the subconscious mind. It’s a call to explore your inner world and embrace the mysteries of life. This card may also indicate a need for balance between your external actions and internal reflections, urging you to find harmony between doing and being."
             },
             {
-                "name": "Ace of Cups",
-                "arcana": "Minor",
-                "is_reversed": false,
-                "meaning": "The Ace of Cups upright signifies new beginnings in your career, emotional fulfillment at work, and creative opportunities. It represents the potential for deep satisfaction and joy in your professional life. This card encourages you to embrace new projects and collaborations that align with your passions. It's a reminder that when you follow your heart, you can find true fulfillment in your work."
-            },
-            {
-                "name": "King of Pentacles",
-                "arcana": "Minor",
-                "is_reversed": false,
-                "meaning": "Financially successful leader, responsible management, career abundance. This card represents the importance of taking control of your professional life and creating a secure foundation for your career growth. It encourages you to embrace a responsible mindset and to focus on building long-term success through wise management of resources. It's a reminder that true success comes from dedication to your goals and effective leadership. Embrace the authoritative energy of this card, and allow yourself to create a prosperous and stable future in your career."
-            }
-        ],
-        "reading_type": "Career",
-        "reflection": ""
-    },
-    {
-        "timestamp": "2025-10-18 00:22:18",
-        "spread_type": "Past-Present-Future",
-        "cards": [
-            {
-                "name": "Ace of Wands",
+                "name": "10 of Wands",
                 "arcana": "Minor",
                 "is_reversed": true,
-                "meaning": "The Ace of Wands reversed warns of delays, creative blocks, or lack of energy. You may feel uninspired or struggle to get started. Take time to reconnect with your motivation and address any obstacles before moving forward. This card suggests patience and reflection before launching new projects."
+                "meaning": "Reversed, the 10 of Wands indicates a release of burdens and the need to let go of responsibilities that are no longer serving you. It suggests a time of delegation and finding ways to lighten your load. This card encourages you to seek support from others and to prioritize self-care. Remember that it's okay to ask for help and to take a step back when needed. Balance is key to maintaining your well-being."
             },
             {
-                "name": "The Hierophant",
+                "name": "Wheel of Fortune",
                 "arcana": "Major",
                 "is_reversed": true,
-                "meaning": "Reversed, it points to questioning traditions or breaking away from rigid expectations. You may be exploring your own beliefs and finding what feels authentic. Avoid blindly following rules that don’t resonate with you. This card may also indicate a need to challenge outdated systems or beliefs that no longer serve your growth. Reflect on where you can create your own path and embrace your individuality. The reversed Hierophant encourages you to find balance between honoring tradition and forging your own way, reminding you that true wisdom comes from both external teachings and internal understanding."
-            },
-            {
-                "name": "The Star",
-                "arcana": "Major",
-                "is_reversed": false,
-                "meaning": "The Star upright symbolizes hope, inspiration, and healing. It’s about reconnecting with your purpose and believing in the future. Stay optimistic and trust the journey. This card encourages you to embrace your inner light and to share your gifts with the world. It may also indicate a time of personal growth and renewal, where you are learning to trust in yourself and the universe. Embrace the process of healing, knowing that it will lead to greater clarity and fulfillment. The Star reminds you that while challenges may arise, maintaining hope and optimism will help you navigate them with grace. Stay connected to your dreams and trust that the universe is guiding you towards your highest good."
+                "meaning": "Reversed, it can mean delays or feeling stuck. Patience is needed — every turn of the wheel eventually brings movement again. Avoid resisting change or forcing outcomes. Reflect on what’s blocking your progress and take steps to regain your momentum. The reversed Wheel of Fortune encourages you to find balance between effort and acceptance, reminding you that true growth comes from embracing the natural cycles of life. It may also suggest that you are trying to control situations or people in ways that are not productive, leading to frustration and setbacks. Letting go of the need for control can open up new paths and opportunities for growth."
             }
         ],
         "reading_type": "General",
-        "reflection": ""
-    },
-    {
-        "timestamp": "2025-10-18 00:22:51",
-        "spread_type": "Past-Present-Future",
-        "cards": [
-            {
-                "name": "The Moon",
-                "arcana": "Major",
-                "is_reversed": false,
-                "meaning": "This card reflects emotional depth and uncertainty in relationships. Communication helps reveal truth. Trust your feelings. The Moon encourages you to be honest with yourself and your partner about your emotions, fostering deeper understanding and connection. It may also indicate a time of growth and self-discovery in your relationships, where you are learning to navigate emotional complexities with empathy and patience. Embrace the strength that comes from emotional clarity, knowing that strong relationships thrive on trust and open communication. It’s a reminder that while the path may be unclear, trusting your instincts will guide you through emotional challenges."
-            },
-            {
-                "name": "The Lovers",
-                "arcana": "Major",
-                "is_reversed": false,
-                "meaning": "This card represents harmony and cooperation in relationships or friendships. It highlights mutual respect and emotional balance. Open communication is key. The Lovers encourages you to build relationships based on trust, respect, and shared values. It may also indicate a time of growth and deepening bonds, where you are learning to support and care for each other in a meaningful way. Embrace the harmony and connection that comes from being authentic and true to yourself. It’s a reminder that strong relationships are built on a foundation of trust and mutual understanding. This card may also suggest a significant choice or commitment in your relationships, urging you to consider what truly matters to you and to make decisions that honor your values and desires."
-            },
-            {
-                "name": "4 of Cups",
-                "arcana": "Minor",
-                "is_reversed": false,
-                "meaning": "The 4 of Cups upright signifies relationship boredom, taking love for granted, and apathy. It represents a time of introspection and the need to reevaluate your romantic life. This card encourages you to check in with yourself and to consider what truly matters in your relationships. It's a reminder that sometimes, you need to withdraw in order to gain clarity and to reconnect with your partner."
-            }
-        ],
-        "reading_type": "Love",
-        "reflection": ""
-    },
-    {
-        "timestamp": "2025-10-18 00:22:59",
-        "spread_type": "Past-Present-Future",
-        "cards": [
-            {
-                "name": "4 of Wands",
-                "arcana": "Minor",
-                "is_reversed": true,
-                "meaning": "Reversed, the 4 of Wands indicates workplace conflicts, lack of recognition, and project delays. You may be feeling undervalued or facing challenges in your professional relationships. This card suggests the need to address any issues and work towards restoring balance and collaboration. Focus on building a strong foundation before celebrating your successes."
-            },
-            {
-                "name": "8 of Swords",
-                "arcana": "Minor",
-                "is_reversed": true,
-                "meaning": "Reversed, the 8 of Swords indicates breaking free from career limitations, self-empowerment, and release from professional restrictions. You may be starting to see a way out of your current job situation and to regain control over your career. This card suggests the need to challenge any fears or doubts that may be holding you back professionally. It's a reminder that true freedom comes from within and that by embracing your inner strength, you can overcome these challenges. Focus on self-reflection and seek support from others if needed. Embrace the liberating energy of this card, and allow yourself to break free from any self-imposed limitations in your career."
-            },
-            {
-                "name": "Ace of Swords",
-                "arcana": "Minor",
-                "is_reversed": true,
-                "meaning": "Reversed, the Ace of Swords indicates career confusion, lack of clarity, and mental blocks. You may be struggling to think clearly or to make decisions in your professional life. This card suggests the need to address any doubts or uncertainties that may be holding you back. It's a reminder that true mental clarity comes from within and that by focusing your thoughts and intentions, you can overcome these challenges. Focus on self-reflection and seek support from others if needed. Embrace the powerful and focused energy of this card, and allow yourself to explore new ideas and perspectives in your career."
-            }
-        ],
-        "reading_type": "Career",
         "reflection": ""
     }
 ]

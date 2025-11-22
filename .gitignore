@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Main script (not needed for production)
+src/main.py
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# User-generated data (optional - exclude if you don't want to push)
+src/data/readings.json
+src/data/card_of_the_day.json
+
+# System
+.DS_Store
+*.log

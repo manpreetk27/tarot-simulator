@@ -4,10 +4,10 @@ import random
 class PastPresentFutureSpread:
     def __init__(self):
         """Initialize the spread with three positions: Past, Present, Future."""
-        self.past_card = None
-        self.present_card = None
-        self.future_card = None
-        self.reading_type = None
+        self.past_card = None # Past card
+        self.present_card = None # Present card
+        self.future_card = None # Future card
+        self.reading_type = None # Type of reading: General, Love, Career
 
     def perform_reading(self, reading_type):
         """Initialize a deck, shuffle it, and draw three cards for the spread"""
@@ -21,8 +21,8 @@ class PastPresentFutureSpread:
         self.future_card = deck.draw_card()
 
         for i in range(3):
-            if random.choice([True, False]):
-                self.past_card.set_orientation(True) # If True chosen → card becomes REVERSED
+            if random.choice([True, False]): # Randomly choose orientation
+                self.past_card.set_orientation(True) # If True chosen card becomes REVERSED
 
         
 

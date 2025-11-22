@@ -5,32 +5,32 @@ class Card:
         self.arcana = arcana  # 'Major' or 'Minor'
         self.suit = suit      # 'Wands', 'Cups', 'Swords', 'Pentacles' for Minor Arcana
         self.rank = rank      # 'Ace', '2', ..., '10', 'Page', 'Knight', 'Queen', 'King' for Minor Arcana
-        self.interpretations = interpretations if interpretations else {}
+        self.interpretations = interpretations if interpretations else {} # stores the meanings in a dict
         self.is_reversed = False  # By default, cards are upright
 
     def __repr__(self):
         """Return a string representation of the card."""
-        if self.is_reversed:
+        if self.is_reversed: # Check orientation
             orientation = "Reversed"
         else:
             orientation = "Upright"
 
         if self.arcana == "Major":
-            return f"{self.name} ({self.arcana} Arcana) {orientation}"
+            return f"{self.name} ({self.arcana} Arcana) {orientation}" # Major Arcana format
         else:
-            return f"{self.rank} of {self.suit} ({self.arcana} Arcana) {orientation}"
+            return f"{self.rank} of {self.suit} ({self.arcana} Arcana) {orientation}" # Minor Arcana format
         
     def set_orientation(self, is_reversed):
         """Set the orientation of the card."""
-        self.is_reversed = is_reversed
+        self.is_reversed = is_reversed # True for Reversed, False for Upright
 
     def get_meaning(self, reading_type='general'):
         """Get the meaning of the card based on its orientation."""
-        meanings = self.interpretations.get(reading_type.lower(), {})
-        if self.is_reversed:
-            return meanings.get('reversed', 'No meaning available')
+        meanings = self.interpretations.get(reading_type.lower(), {}) # Fetch meanings for the reading type
+        if self.is_reversed: # Check orientation
+            return meanings.get('reversed', 'No meaning available') # Return reversed meaning
         else:
-            return meanings.get('upright', 'No meaning available')
+            return meanings.get('upright', 'No meaning available') # Return upright meaning
 
         
         
