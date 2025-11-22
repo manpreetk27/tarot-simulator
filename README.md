@@ -3,7 +3,7 @@
 A modern tarot reading simulator built with Python and Streamlit. Draw cards, get meaningful interpretations, and keep a journal of your readings.
 
 ---
-<img width="1500" height="440" src="placeholder" />
+<img width="1500" height="440" src="https://github.com/manpreetk27/tarot-simulator/blob/9d9ef36cdd733747d8eacb7c1a52cce091241b89/assets/screen.png" />
 
 ## 🌙 Features
 
