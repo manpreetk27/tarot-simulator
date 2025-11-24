@@ -16,7 +16,6 @@ def show_about_page():
     st.image(
         "https://www.thevintagenews.com/wp-content/uploads/sites/65/2016/10/lead-tarot6.jpg",
         caption="The Visconti-Sforza Tarot Deck, one of the oldest known tarot decks.",
-        width='content',
         width=700
     )
 
